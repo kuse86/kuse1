@@ -1,0 +1,259 @@
+/*上边栏*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	background-color: #fff;
+	font-size: 14px;
+}
+header{
+	width: 100%;
+	background-color: #f0f3f5;
+	margin-bottom:20px;
+}
+.nav_wrap{
+	width: 70%;
+	margin: 0 auto;
+}
+.nav_log{
+	float: left;
+	font-size: 1.5em;
+	font-weight: 500;
+	padding: 10px 20px 10px 0px;
+}
+.nav_log a{
+	text-decoration: none;
+	color: #1987cb;
+}
+.nav_search{
+	padding: 10px;
+	height: 34px;
+}
+#search_text{
+	width: 40%;
+	background-color: #fff;
+	height: 30px;
+	padding-left: 10px;
+	text-align: left;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px; 
+	border-style: none;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+#search_style{
+	width: 37px;
+	height: 30px;
+	background: url(../img/nav_mv_bg.png) no-repeat 0 -40px;
+	border-style: none;
+	font-size: 0;
+	position: absolute;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.nav_category{
+	clear: both;
+	width: 70%;
+	height: 40px;
+	margin: 0 auto;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #e3ebec;
+	background-color: #f0f3f5;
+}
+.nav_category ul{
+	list-style: none;
+	padding-top: 10px;
+	font-size: 15px;
+}
+.nav_category ul li{
+	margin-right: 2em;
+	display: inline-block;
+}
+.nav_category ul li a{
+	text-decoration: none;
+	color: #27a;
+}
+.nav_category ul li:hover{
+	background-color: #666699;
+}
+main{
+	width: 70%;
+	margin: 0 auto;
+}
+.nav{
+	width: 90%;
+	height: 32px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dbdbdb;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.nav_img{
+	float: left;
+	width: 26px;
+	background: url(../img/home_icon.png) no-repeat 50% 50%;
+	padding: 10px 0 0 10px;
+	height: 20px;
+}
+.nav ul{
+	list-style: none;
+}
+#nav_i{
+	background: url(../img/bg.png) 0 -430px no-repeat;
+	float: left;
+	padding: 5px 10px 10px 20px;
+	text-decoration: none;
+	color: #9a9a9a;
+}
+.left{
+	width: 70%;
+	margin-top: 10px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dbdbdb;
+}
+.left_header{
+	padding-left: 15px;
+}
+.left_header h2{
+	padding-top: 15px;
+	text-shadow: 1px 1px 2px #b5b5b5;
+}
+.left_header table{
+	width: 70%;
+}
+.left_header table tr td small{
+	float: left;
+}
+.left_header table tr td p{
+	color: #e23a0a;
+	margin-top: -1px;
+}
+.left_main{
+	width: 95%;
+	margin: 0 auto;
+	border-style: solid;
+	padding: 4px 0 0 0;
+	border-width: 1px;
+	border-color: #fff;
+	border-radius: 0 5px 5px 5px;
+	box-shadow: 0 -2px 3px -2px rgba(0,0,0,.5);
+}
+.left_main_img{
+	clear: both;
+	float: left;
+	margin: 5px 0 5px;
+	padding: 10px;
+}
+.dbinfo{
+	height: 310px;
+	padding: 10px;
+}
+.left_main_p{
+	clear: both;
+	padding-left: 10px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+
+
+/*右边栏*/
+.lab {
+	background-color: #f2f7f6;
+	border-radius: 6px;
+	padding: 1.2em;
+	margin-bottom: 2em;
+}
+ul {
+	list-style: none;
+}
+.main {
+	width: 70%;
+	margin: 0 auto;
+	/*background-color: #1987CB;*/
+}
+
+.lab a {
+	margin: 0!important;
+	display: block;
+	color: #37a;
+	text-decoration: none;
+	/*margin-bottom: 1em!important;*/
+}
+
+.lab:nth-child(2) a {
+	margin-bottom: 1em!important;
+}
+
+.lab h4 {
+	color: #072;
+	margin-bottom: 1em!important;
+}
+
+.right_content {
+	width: 25%;
+	float: right;
+	padding-right: 10%;
+}
+
+.right_content .title {
+	border-bottom: 0.3px solid rgba(0, 0, 0, 0.3);
+	padding-bottom: 1em;
+	font-size: 1.5em;
+}
+
+.right_content .option ul {
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+
+.right_content .option li {
+	display: inline-block;
+	font-size: 1em;
+	width: 12.6%;
+}
+
+.right_content .option {
+	border-bottom: 3px solid #eaeaea;
+}
+
+.right_content .op_content li {
+	color: #37a;
+	border-bottom: 0.3px solid rgba(0, 0, 0, 0.3);
+	line-height: 3em;
+	font-size: 0.9em;
+}
+
+.right_content .week,
+.last_op {
+	margin-bottom: 2.5em;
+}
+
+.right_content .op_content label {
+	color: orange;
+	float: right;
+}
+
+.pro_lab span {
+	color: #37a;
+	background-color: #e8e8e8;
+	float: left;
+	padding: 2px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.pro_lab_content h5+div {
+	height: 12em;
+	padding-bottom: 1em;
+	border-bottom: 1px dashed #eaeaea;
+}
